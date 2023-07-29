@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="#F3E5E9"
+    android:fitsSystemWindows="true"
+    android:padding="@dimen/_10mdp"
+    tools:context=".SettingActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tetxTiforColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tifor Color"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/tiforColor"
+                app:layout_constraintStart_toStartOf="@id/tiforColor"
+                app:layout_constraintTop_toBottomOf="@id/tiforColor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RubyColor"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/rubyColor"
+                app:layout_constraintStart_toStartOf="@id/rubyColor"
+                app:layout_constraintTop_toBottomOf="@id/rubyColor" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PaleMagenta"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/paleMagenta"
+                app:layout_constraintStart_toStartOf="@id/paleMagenta"
+                app:layout_constraintTop_toBottomOf="@id/paleMagenta" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LightBlue"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/lightBlue"
+                app:layout_constraintStart_toStartOf="@id/lightBlue"
+                app:layout_constraintTop_toBottomOf="@id/lightBlue" />
+
+
+            <TextView
+                android:id="@+id/textlime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lime"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/lime"
+                app:layout_constraintStart_toStartOf="@id/lime"
+                app:layout_constraintTop_toBottomOf="@id/lime" />
+
+            <TextView
+                android:id="@+id/textPink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pink"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/pink"
+                app:layout_constraintStart_toStartOf="@id/pink"
+                app:layout_constraintTop_toBottomOf="@id/pink" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aquamarine"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/aquamarine"
+                app:layout_constraintStart_toStartOf="@id/aquamarine"
+                app:layout_constraintTop_toBottomOf="@id/aquamarine" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Night"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/night"
+                app:layout_constraintStart_toStartOf="@id/night"
+                app:layout_constraintTop_toBottomOf="@id/night" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BlueGray"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/blueGray"
+                app:layout_constraintStart_toStartOf="@id/blueGray"
+                app:layout_constraintTop_toBottomOf="@id/blueGray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LightPurpleBlue"
+                android:textColor="@color/loveRed"
+                android:textSize="@dimen/_10font_mdp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/lightPurpleBlue"
+                app:layout_constraintStart_toStartOf="@id/lightPurpleBlue"
+                app:layout_constraintTop_toBottomOf="@id/lightPurpleBlue" />
+
+
+            <TextView
+                android:id="@+id/textGhostWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GhostWhite"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/ghostWhite"
+                app:layout_constraintStart_toStartOf="@id/ghostWhite"
+                app:layout_constraintTop_toBottomOf="@id/ghostWhite" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BlueDiamond"
+                android:textColor="@color/loveRed"
+                android:textSize="@dimen/_9font_mdp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/blueDiamond"
+                app:layout_constraintStart_toStartOf="@id/blueDiamond"
+                app:layout_constraintTop_toBottomOf="@id/blueDiamond" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5mdp"
+                android:text="NeonYellowGreen"
+                android:textColor="@color/loveRed"
+                android:textSize="@dimen/_8font_mdp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/neonYellowGreen"
+                app:layout_constraintStart_toStartOf="@id/neonYellowGreen"
+                app:layout_constraintTop_toBottomOf="@id/neonYellowGreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AlgaeGreen"
+                android:textColor="@color/loveRed"
+                android:textSize="@dimen/_9font_mdp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/algaeGreen"
+                app:layout_constraintStart_toStartOf="@id/algaeGreen"
+                app:layout_constraintTop_toBottomOf="@id/algaeGreen" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5mdp"
+                android:text="ChromeWhite"
+                android:textColor="@color/loveRed"
+                android:textSize="@dimen/_9font_mdp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/chromeWhite"
+                app:layout_constraintStart_toStartOf="@id/chromeWhite"
+                app:layout_constraintTop_toBottomOf="@id/chromeWhite" />
+
+            <TextView
+                android:id="@+id/textLoveRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LoveRed"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/loveRed"
+                app:layout_constraintStart_toStartOf="@id/loveRed"
+                app:layout_constraintTop_toBottomOf="@id/loveRed" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blush Color"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/blush"
+                app:layout_constraintStart_toStartOf="@id/blush"
+                app:layout_constraintTop_toBottomOf="@id/blush" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LightPink"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/lightPink"
+                app:layout_constraintStart_toStartOf="@id/lightPink"
+                app:layout_constraintTop_toBottomOf="@id/lightPink" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DarkPink"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/darkPink"
+                app:layout_constraintStart_toStartOf="@id/darkPink"
+                app:layout_constraintTop_toBottomOf="@id/darkPink" />
+
+
+            <TextView
+                android:id="@+id/textfuchsiaPink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FuchsiaPink"
+                android:textColor="@color/loveRed"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/fuchsiaPink"
+                app:layout_constraintStart_toStartOf="@id/fuchsiaPink"
+                app:layout_constraintTop_toBottomOf="@id/fuchsiaPink" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5mdp"
+                android:text="BlossomPink"
+                android:textColor="@color/loveRed"
+                android:textSize="@dimen/_10font_mdp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/blossomPink"
+                app:layout_constraintStart_toStartOf="@id/blossomPink"
+                app:layout_constraintTop_toBottomOf="@id/blossomPink" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5mdp"
+                android:text="LightCyan"
+                android:textColor="@color/loveRed"
+                android:textSize="@dimen/_10font_mdp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/lightCyan"
+                app:layout_constraintStart_toStartOf="@id/lightCyan"
+                app:layout_constraintTop_toBottomOf="@id/lightCyan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5mdp"
+                android:text="MilkWhite"
+                android:textColor="@color/loveRed"
+                android:textSize="@dimen/_10font_mdp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/milkWhite"
+                app:layout_constraintStart_toStartOf="@id/milkWhite"
+                app:layout_constraintTop_toBottomOf="@id/milkWhite" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5mdp"
+                android:text="Lavender"
+                android:textColor="@color/loveRed"
+                android:textSize="@dimen/_10font_mdp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@id/lavender"
+                app:layout_constraintStart_toStartOf="@id/lavender"
+                app:layout_constraintTop_toBottomOf="@id/lavender" />
+
+            <View
+                android:id="@+id/tiforColor"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/tiforColor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <View
+                android:id="@+id/rubyColor"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/rubyColor"
+                app:layout_constraintStart_toEndOf="@id/tiforColor"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/paleMagenta"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/paleMagenta"
+                app:layout_constraintStart_toEndOf="@id/rubyColor"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <View
+                android:id="@+id/lightBlue"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/lightBlue"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/paleMagenta"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/lime"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/lime"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textfuchsiaPink" />
+
+
+            <View
+                android:id="@+id/pink"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/pink"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tetxTiforColor" />
+
+            <View
+                android:id="@+id/aquamarine"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/aquamarine"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/pink"
+                app:layout_constraintTop_toBottomOf="@id/tetxTiforColor" />
+
+
+            <View
+                android:id="@+id/night"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/night"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/aquamarine"
+                app:layout_constraintTop_toBottomOf="@id/tetxTiforColor" />
+
+            <View
+                android:id="@+id/blueGray"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/blueGray"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/night"
+                app:layout_constraintTop_toBottomOf="@id/tetxTiforColor" />
+
+
+            <View
+                android:id="@+id/lightPurpleBlue"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/lightPurpleBlue"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/lime"
+                app:layout_constraintTop_toBottomOf="@id/textfuchsiaPink" />
+
+            <View
+                android:id="@+id/ghostWhite"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/ghostWhite"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textPink" />
+
+
+            <View
+                android:id="@+id/blueDiamond"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/blueDiamond"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/ghostWhite"
+                app:layout_constraintTop_toBottomOf="@id/textPink" />
+
+            <View
+                android:id="@+id/neonYellowGreen"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/neonYellowGreen"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/blueDiamond"
+                app:layout_constraintTop_toBottomOf="@id/textPink" />
+
+
+            <View
+                android:id="@+id/algaeGreen"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/algaeGreen"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/neonYellowGreen"
+                app:layout_constraintTop_toBottomOf="@id/textPink" />
+
+            <View
+                android:id="@+id/chromeWhite"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/chromeWhite"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/lightPurpleBlue"
+                app:layout_constraintTop_toBottomOf="@id/textfuchsiaPink" />
+
+
+            <View
+                android:id="@+id/loveRed"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/loveRed"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textGhostWhite" />
+
+            <View
+                android:id="@+id/blush"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/blush"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/loveRed"
+                app:layout_constraintTop_toBottomOf="@id/textGhostWhite" />
+
+
+            <View
+                android:id="@+id/deepRose"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/deepRose"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/blush"
+                app:layout_constraintTop_toBottomOf="@id/textGhostWhite" />
+
+            <View
+                android:id="@+id/lightPink"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/lightPink"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/deepRose"
+                app:layout_constraintTop_toBottomOf="@id/textGhostWhite" />
+
+
+            <View
+                android:id="@+id/darkPink"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/darkPink"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/chromeWhite"
+                app:layout_constraintTop_toBottomOf="@id/textfuchsiaPink" />
+
+            <View
+                android:id="@+id/fuchsiaPink"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/fuchsiaPink"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textLoveRed" />
+
+
+            <View
+                android:id="@+id/blossomPink"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/blossomPink"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/fuchsiaPink"
+                app:layout_constraintTop_toBottomOf="@id/textLoveRed" />
+
+            <View
+                android:id="@+id/lightCyan"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/lightCyan"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/blossomPink"
+                app:layout_constraintTop_toBottomOf="@id/textLoveRed" />
+
+            <View
+                android:id="@+id/milkWhite"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/milkWhite"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toEndOf="@id/lightCyan"
+                app:layout_constraintTop_toBottomOf="@id/textLoveRed" />
+
+            <View
+                android:id="@+id/lavender"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="@dimen/_50mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="@dimen/_10mdp"
+                android:background="@drawable/follow_active_btn"
+                android:backgroundTint="@color/lavender"
+                android:padding="@dimen/_10mdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textlime" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

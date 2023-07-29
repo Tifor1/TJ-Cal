@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="Theme.TJCal" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/tiforColor</item>
+        <item name="android:statusBarColor">@color/tiforColor</item>
+    </style>
+</resources>

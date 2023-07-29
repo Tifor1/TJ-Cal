@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "683136518048",
+    "project_id": "calculation-726e6",
+    "storage_bucket": "calculation-726e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683136518048:android:cfcb10b27a7f507e1186c5",
+        "android_client_info": {
+          "package_name": "tifor.cal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683136518048-on9tn2uemgtge1e84ino026390fgfm93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKsPLq0sq3W3si0r6hs1_UHLCI3GJtyRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683136518048-on9tn2uemgtge1e84ino026390fgfm93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
